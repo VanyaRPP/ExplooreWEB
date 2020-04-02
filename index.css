@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    position: relative;/*/////////////*/
+    background-color: rgba(0, 0, 0, 0.450);
+}
+a{
+    text-decoration: none;
+}
+header li{
+    display: inline;
+    list-style: none;
+    color: white;
+}
+.uphed{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #707485;
+    height: 65px;
+    width: 1220px;
+    align-items: center;
+}
+.uphed li{
+    font-size: 10px;
+}
+.Contacts li{
+    margin-right: 125px;
+}
+.Socials a{
+    margin-right: 22px;
+}
+.Login{
+    font-family: 'Montserrat';
+}
+.Login li{
+    margin-left: 33px;
+}
+
+.downhed{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 77px;
+    width: 1220px;
+}
+.hicon{
+    color: #ffdd00;
+}
+.nav{
+    color: white;
+    padding-bottom: 27px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+.nav:hover{
+    border-bottom: 3px solid #ffdd00;
+}
