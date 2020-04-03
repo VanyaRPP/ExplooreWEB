@@ -97,9 +97,16 @@ header li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-image: url(./Img/ocean.png);
 }
-
+.MainBanner a{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 175px;
+}
+.MainBanner a:hover{
+    cursor: pointer;
+}
 .mbaner{
     margin-top: 345px;
     text-align: center;
@@ -136,9 +143,6 @@ header li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-	left: 0;
-	bottom: 0;
 	width: 100%;
 	height: 150px;
     background-color: #ffdd00;
