@@ -80,15 +80,48 @@ header li{
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
-
-
-
-
-
-
+.fhinput{
+    display: grid;
+    grid-template-columns: 240px 240px 240px 130px 130px 240px;
+    grid-gap: 17px;
+    margin-bottom: 82px;
+}
+.teXt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.inPUT input{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 40px;
+    width: 200px;
+}
+.xxz input{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 20px;
+    height: 38px;
+    width: 100px;
+}
+.clickherebotom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4d4d4d; 
+    background-color: #4d4d4d;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    margin-top: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clickherebotom:hover{
+    cursor: pointer;
+}
 
 
 
@@ -97,10 +130,10 @@ header li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./Img/ocean.png);
+    background: url(./Img/ocean.png);
+    background-size: cover;
 }
 .MainBanner a{
-    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 175px;
 }
