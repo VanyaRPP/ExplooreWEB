@@ -4,8 +4,9 @@ body{
 }
 header{
     display: flex;
+    width: 100%;
     justify-content: center;
-    position: relative;/*/////////////*/
+    position: fixed;/*/////////////*/
     background-color: rgba(0, 0, 0, 0.450);
 }
 a{
@@ -59,4 +60,46 @@ header li{
 }
 .nav:hover{
     border-bottom: 3px solid #ffdd00;
+}
+/*///////////////////////////////////////*/
+.MainBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainBanner img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.mbaner{
+    margin-top: 345px;
+    text-align: center;
+}
+.mbaner p{
+    margin: 0;
+    margin-bottom: 25px;
+}
+.Start_Your_Greatest_Adventure_with_us_ {
+    font-size: 55px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 0.963;
+    text-align: center;
+  }
+  .Lorem1{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.yel_but{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+    height: 55px;
+    background-color: #ffdd00;
+    border-radius: 5px;
 }
