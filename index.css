@@ -67,6 +67,59 @@ header li{
     flex-direction: column;
 }
 
+.MainBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./Img/ocean.png);
+    background-size: cover;
+}
+.MainBanner a{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 175px;
+}
+.MainBanner a:hover{
+    cursor: pointer;
+}
+.mbaner{
+    margin-top: 345px;
+    text-align: center;
+}
+.mbaner p{
+    margin: 0;
+    margin-bottom: 25px;
+}
+.Start_Your_Greatest_Adventure_with_us_ {
+    font-size: 55px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 0.963;
+    text-align: center;
+  }
+  .Start_Your_Greatest_Adventure_with_us_1 {
+    font-size: 47px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 0.963;
+    text-align: center;
+  }
+  .Lorem1{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.yel_but{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 215px;
+    height: 55px;
+    background-color: #ffdd00;
+    border-radius: 5px;
+}
+
 .find_hotels{
     display: flex;
     flex-direction: column;
@@ -123,59 +176,71 @@ header li{
     cursor: pointer;
 }
 
-
-
-.MainBanner{
+.info_block{
+    display: grid;
+    grid-template-areas: 'train first_text'
+                        'Zagolovok Zagolovok'
+                        'second_text third_text';
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 230px 1fr ;
+}
+.info{
+    background-color: khaki;
+    border: lawngreen 1px solid;
+    padding-top: 25px;
+}
+.train{
+    grid-area: train;
+    background: url(./Img/Train.png);
+    background-size: cover;
+    padding-top: 613px;
+}
+.first_text{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(./Img/ocean.png);
-    background-size: cover;
+    grid-area: first_text;
 }
-.MainBanner a{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 175px;
+.first_text div{
+    width: 530px;
 }
-.MainBanner a:hover{
-    cursor: pointer;
+.mini_list li{
+    list-style: none;
+    margin-top: 40px;
 }
-.mbaner{
-    margin-top: 345px;
-    text-align: center;
+.mini_list i{
+    color: #00a4ff;
 }
-.mbaner p{
-    margin: 0;
-    margin-bottom: 25px;
-}
-.Start_Your_Greatest_Adventure_with_us_ {
-    font-size: 55px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    line-height: 0.963;
-    text-align: center;
-  }
-  .Start_Your_Greatest_Adventure_with_us_1 {
-    font-size: 47px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    line-height: 0.963;
-    text-align: center;
-  }
-  .Lorem1{
-    font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-.yel_but{
+
+
+
+.Zagolovok{
+    grid-area: Zagolovok;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 215px;
-    height: 55px;
-    background-color: #ffdd00;
-    border-radius: 5px;
+    align-items: center;
+
+}
+.Zagolovok h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 28px;
+}
+.Zagolovok h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: initial;
+    margin: 0;
+    margin-top: 72px;
+}
+
+.second_text{
+    grid-area: second_text;
+}
+.third_text{
+    grid-area: third_text;
 }
   /*****************************/
   footer{
