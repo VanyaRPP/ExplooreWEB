@@ -182,11 +182,9 @@ header li{
                         'Zagolovok Zagolovok'
                         'second_text third_text';
     grid-template-columns:  1fr 1fr;
-    grid-template-rows: 1fr 230px 1fr ;
+    grid-template-rows: 1fr 175px 1fr ;
 }
 .info{
-    background-color: khaki;
-    border: lawngreen 1px solid;
     padding-top: 25px;
 }
 .train{
@@ -202,16 +200,34 @@ header li{
     grid-area: first_text;
 }
 .first_text div{
-    width: 530px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .mini_list li{
     list-style: none;
     margin-top: 40px;
 }
 .mini_list i{
+    margin-right: 15px;
     color: #00a4ff;
 }
-
+.zag{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zag_1{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 800;
+}
+.zag_2{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 200;
+}
 
 
 .Zagolovok{
@@ -233,14 +249,39 @@ header li{
     font-size: 26px;
     font-weight: initial;
     margin: 0;
-    margin-top: 72px;
+    margin-top: 30px;
 }
 
 .second_text{
     grid-area: second_text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.punkt{
+    display: flex;
+    margin-bottom: 60px;
+}
+.TeXt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagee{
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.imagee i{
+    color: #00a4ff;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.zAg{
+    font-size: 20px;
 }
 .third_text{
     grid-area: third_text;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
   /*****************************/
   footer{
