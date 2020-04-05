@@ -186,6 +186,7 @@ header li{
 }
 .info{
     padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .train{
     grid-area: train;
@@ -260,6 +261,7 @@ header li{
 }
 .punkt{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 60px;
 }
 .TeXt{
@@ -281,7 +283,7 @@ header li{
     grid-area: third_text;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
   /*****************************/
   footer{
