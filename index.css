@@ -12,6 +12,9 @@ header{
 a{
     text-decoration: none;
 }
+li{
+    list-style: none;
+}
 header li{
     display: inline;
     list-style: none;
@@ -286,6 +289,79 @@ header li{
     justify-content: center;
 }
   /*****************************/
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(./Img/TownFon.png);
+    background-position: bottom, top;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bluline{
+    height: 250px;
+}
+.gfh{
+    text-align: center;
+}
+.gfh p{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-gap: 36px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+.bl2{
+    position: relative;
+    width: 412px;
+    background-color: #f0d839;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+}
+.bl2 p{
+    margin: 12px;
+}
+.bl3{
+    padding: 25px;
+}
+.bl3 li{
+    margin: 17px;
+}
+.bl3 i{
+    color: #00a4ff;
+}
+.bl1{
+    text-align: center;
+    padding: 25px;
+}
+.bl1 p{
+    font-size: 20px;
+    font-weight: 800;
+}
+.bl1 i{
+    font-size: 77px;
+    color: #373737;
+}
+
+
+
+  /*******************************************/
   footer{
     display: flex;
     flex-direction: column;
