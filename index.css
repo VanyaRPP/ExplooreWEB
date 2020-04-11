@@ -609,6 +609,7 @@ header li{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
     width: 176px;
     height: 46px;
     background-color: #f4dc3a;
@@ -626,6 +627,52 @@ header li{
     text-align: center;
     margin: 0;
     margin-bottom: 40px;
+}
+/********************************************/
+.palmafom{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 850px;
+    background: url(./Img/Palma.png) 0% 50% no-repeat;
+}
+.Z{
+    font-size: 30px;
+}
+.Kartochkaa{
+    height: 450px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    left: 60%;
+    bottom: -20%;
+}
+.knopochka2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    width: 176px;
+    height: 46px;
+    background-color: #f4dc3a;
+    border-radius: 3px;
+}
+.iCons{
+    display: flex;
+    max-width: 225px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.iccon{
+    font-size: 50px;
+    color: #0099ff;
+}
+.Wenu{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
 }
 /********************************************/
 footer{
