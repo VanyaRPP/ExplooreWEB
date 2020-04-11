@@ -289,7 +289,7 @@ header li{
     align-items: center;
     justify-content: center;
 }
-  /*****************************/
+/*****************************/
 .price{
     display: flex;
     flex-direction: column;
@@ -359,7 +359,7 @@ header li{
     font-size: 77px;
     color: #373737;
 }
-  /*******************************************/
+/*******************************************/
 .Trvel{
     padding-top: 90px;
     padding-bottom: 90px;
@@ -491,7 +491,7 @@ header li{
 .knopka:hover{
     cursor: pointer;
 }
-  /********************************************/
+/********************************************/
 .PakandGo{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -500,7 +500,7 @@ header li{
     padding: 50px;
     background: url(./Img/RockFon.png);
     background-size: cover;
-  }
+}
 .PakandGo h2{
     font-size: 30px;
     margin: 0;
@@ -571,10 +571,64 @@ header li{
     height: 45px;
     background-color: #f1d939;
 }
-
-
-  /********************************************/
-  footer{
+/********************************************/
+.ts2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./Img/FonHAUSE.png);
+    background-size: cover;
+}
+.ZaGolOwok{
+    font-size: 25px;
+    text-align: center;
+}
+.contCARD{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 47px;
+    margin-top: 10px;
+    margin-bottom: 83px;
+}
+.cardhalf img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.knopochka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 46px;
+    background-color: #f4dc3a;
+    border-radius: 3px;
+    position: relative;
+    bottom: 20px;
+}
+.cardhalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardhalf p{
+    max-width: 270px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+}
+/********************************************/
+footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -582,4 +636,4 @@ header li{
 	width: 100%;
 	height: 150px;
     background-color: #ffdd00;
-  }
+}
